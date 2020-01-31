@@ -27,7 +27,7 @@ For the tiered claim calculator, the tier config is provided by database as the 
 Assuming for the UI, there is just only calculation result show on the page. But for the calculation details, you can find in the console or the log file.
 
 ## HOW LONG DID TAKE
-2 days
+1 days
 
 ## QUALITY APPROACH
 Using abstract method factory design pattern to create data list of Transaction by different claim ways.
@@ -35,3 +35,5 @@ Using abstract method factory design pattern to create data list of Transaction 
 Using strategy design pattern to do the calculation by different claim ways.
 
 DefaultExceptionHandler is used to handle different exceptions, which class should be maintain as projects go.
+
+##
